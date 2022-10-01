@@ -1,0 +1,48 @@
+2022-10-01 16:39:57,057 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-10-01 16:39:57,101 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-5.4.1\bin\user.properties
+2022-10-01 16:39:57,103 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-5.4.1\bin\system.properties
+2022-10-01 16:39:57,105 INFO o.a.j.JMeter: Loading additional properties from: db.properties
+2022-10-01 16:39:57,106 INFO o.a.j.JMeter: Setting JMeter property: ResultPath=C:\Users\G525585\eclipse-workspace\Database Performance Testing\Results.csv
+2022-10-01 16:39:57,106 INFO o.a.j.JMeter: Setting JMeter property: ReadDataPath=C:\Users\G525585\eclipse-workspace\Database Performance Testing\useddata.csv
+2022-10-01 16:39:57,106 INFO o.a.j.JMeter: Setting JMeter property: NoThread=1
+2022-10-01 16:39:57,106 INFO o.a.j.JMeter: Setting JMeter property: NoIteration=1
+2022-10-01 16:39:57,106 INFO o.a.j.JMeter: Setting JMeter property: RampupTimePeriod=1
+2022-10-01 16:39:57,135 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-10-01 16:39:57,135 INFO o.a.j.JMeter: Version 5.4.1
+2022-10-01 16:39:57,135 INFO o.a.j.JMeter: java.version=1.8.0_311
+2022-10-01 16:39:57,136 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-10-01 16:39:57,136 INFO o.a.j.JMeter: os.name=Windows 10
+2022-10-01 16:39:57,136 INFO o.a.j.JMeter: os.arch=amd64
+2022-10-01 16:39:57,136 INFO o.a.j.JMeter: os.version=10.0
+2022-10-01 16:39:57,136 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-10-01 16:39:57,136 INFO o.a.j.JMeter: java.awt.headless=null
+2022-10-01 16:39:57,137 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-10-01 16:39:57,137 INFO o.a.j.JMeter: Available Processors =8
+2022-10-01 16:39:57,154 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-10-01 16:39:57,155 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-10-01 16:39:57,155 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-5.4.1
+2022-10-01 16:39:57,155 INFO o.a.j.JMeter: user.dir  =C:\Users\G525585\eclipse-workspace\Database Performance Testing
+2022-10-01 16:39:57,157 INFO o.a.j.JMeter: PWD       =C:\Users\G525585\eclipse-workspace\Database Performance Testing
+2022-10-01 16:39:57,163 INFO o.a.j.JMeter: IP: 192.168.1.2 Name: EGCA1-0091 FullName: EGCA1-0091.in.idemia.com
+2022-10-01 16:39:57,620 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.IntelliJTheme
+2022-10-01 16:39:59,885 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-10-01 16:40:25,421 INFO o.a.j.s.FileServer: Default base='C:\Users\G525585\eclipse-workspace\Database Performance Testing'
+2022-10-01 16:40:25,433 INFO o.a.j.g.a.Load: Loading file: C:\Users\G525585\eclipse-workspace\Database Performance Testing\MYSQL_PerformanceTesting.jmx
+2022-10-01 16:40:25,433 INFO o.a.j.s.FileServer: Set new base='C:\Users\G525585\eclipse-workspace\Database Performance Testing'
+2022-10-01 16:40:25,789 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-10-01 16:40:25,850 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-10-01 16:40:25,854 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-10-01 16:40:25,862 INFO o.a.j.s.SaveService: Loading file: C:\Users\G525585\eclipse-workspace\Database Performance Testing\MYSQL_PerformanceTesting.jmx
+2022-10-01 16:40:25,948 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-10-01 16:40:25,955 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2022-10-01 16:40:26,094 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-10-01 16:40:26,094 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-10-01 16:40:26,095 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-10-01 16:40:26,095 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-10-01 16:40:26,096 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-10-01 16:40:26,096 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-10-01 16:40:27,498 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-10-01 16:40:27,498 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-10-01 16:40:27,498 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-10-01 16:40:27,498 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-10-01 16:40:28,132 INFO o.a.j.s.FileServer: Set new base='C:\Users\G525585\eclipse-workspace\Database Performance Testing'
