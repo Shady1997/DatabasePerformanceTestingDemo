@@ -125,7 +125,7 @@
             <boolProp name="TransactionController.parent">false</boolProp>
           </TransactionController>
           <hashTree>
-            <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="1.1.RQ: Insert New User" enabled="true">
+            <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="1.1.RQ: Insert New User" enabled="false">
               <stringProp name="dataSource">test_pool</stringProp>
               <stringProp name="query">insert into users(username , password) values (&quot;${flatinName}&quot;,&quot;${flatinName}&quot;);</stringProp>
               <stringProp name="queryArguments"></stringProp>
@@ -242,7 +242,7 @@ vars.put(&quot;endDate&quot;,x);</stringProp>
             </hashTree>
             <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="1.2.RQ: Update Existing User" enabled="true">
               <stringProp name="dataSource">test_pool</stringProp>
-              <stringProp name="query">insert into users(username , password) values (&quot;${flatinName}&quot;,&quot;${flatinName}&quot;);</stringProp>
+              <stringProp name="query">insert into users(username , password) values (&quot;${__RandomString(5,ABCD123)}&quot;,&quot;${__RandomString(5,ABCDEF)}&quot;);</stringProp>
               <stringProp name="queryArguments"></stringProp>
               <stringProp name="queryArgumentsTypes"></stringProp>
               <stringProp name="queryTimeout"></stringProp>
@@ -470,7 +470,7 @@ vars.put(&quot;endDate&quot;,x);</stringProp>
               </JSR223PreProcessor>
               <hashTree/>
             </hashTree>
-            <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="1.4.RQ: Delete Existing User" enabled="true">
+            <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="1.4.RQ: Delete Existing User" enabled="false">
               <stringProp name="dataSource">test_pool</stringProp>
               <stringProp name="query">insert into users(username , password) values (&quot;${flatinName}&quot;,&quot;${flatinName}&quot;);</stringProp>
               <stringProp name="queryArguments"></stringProp>
